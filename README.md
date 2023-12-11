@@ -16,3 +16,5 @@ authenticate_face()
 face_attributes()
 This function takes in an Entry ID from the registration database and calls a lambda function 
 that finds if the ID is present in the database. If it is, we’ll find the associated image in the registration bucket and call Rekognition to deliver some attributes on the face. 
+
+Note: Configuration Files are not included for privacy. 
